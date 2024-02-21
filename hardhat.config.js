@@ -17,7 +17,7 @@ const networks = {
     accounts: [accounts.bsc.privateKey],
   },
   mumbai: {
-    url: "https://bsc-testnet.web3api.com/v1/KBR2FY9IJ2IXESQMQ45X76BNWDAW2TT3Z3",
+    url: "https://rpc-mumbai.maticvigil.com/",
     chainId: 80001,
     gasPrice: 20000000000,
     accounts: [accounts.polygon.privateKey],
@@ -26,7 +26,7 @@ const networks = {
 
 module.exports = {
   solidity: {
-    version: "0.8.13",
+    version: "0.8.24",
     settings: {
       optimizer: {
         enabled: true,
